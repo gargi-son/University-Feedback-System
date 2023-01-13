@@ -1,0 +1,51 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    cattle.io/status: '{"Conditions":[{"Type":"ResourceQuotaInit","Status":"True","Message":"","LastUpdateTime":"2022-05-08T02:20:58Z"},{"Type":"InitialRolesPopulated","Status":"True","Message":"","LastUpdateTime":"2022-05-08T02:20:58Z"}]}'
+    field.cattle.io/containerDefaultResourceLimit: '{}'
+    field.cattle.io/projectId: c-spfsh:p-r5tz2
+    lifecycle.cattle.io/create.namespace-auth: "true"
+  creationTimestamp: "2022-05-08T02:20:57Z"
+  finalizers:
+  - controller.cattle.io/namespace-auth
+  labels:
+    field.cattle.io/projectId: p-r5tz2
+    kubernetes.io/metadata.name: angularns
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:field.cattle.io/containerDefaultResourceLimit: {}
+          f:field.cattle.io/projectId: {}
+        f:labels:
+          .: {}
+          f:field.cattle.io/projectId: {}
+          f:kubernetes.io/metadata.name: {}
+    manager: agent
+    operation: Update
+    time: "2022-05-08T02:20:57Z"
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          f:cattle.io/status: {}
+          f:lifecycle.cattle.io/create.namespace-auth: {}
+        f:finalizers:
+          .: {}
+          v:"controller.cattle.io/namespace-auth": {}
+    manager: rancher
+    operation: Update
+    time: "2022-05-08T02:20:57Z"
+  name: angularns
+  resourceVersion: "1696"
+  uid: c153c513-07d7-476e-b2d1-0c19c63a44e3
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active

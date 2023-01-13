@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+        
+    </head>
+
+    <form >
+                   
+        <div class="container"> 
+            <h2 style="text-align:center;"><b>Student Survey Form</b></h2>
+            <table>
+            <tr>
+                
+                <td>
+                    <div class="row w3-container w3-padding-70 display:Grid"></div>
+                        <label> <b>First Name</b></label>
+                        <input type="text" placeholder="Enter your First Name" required="" name="Name" style="column-gap: normal;" >
+                    </div>
+                </td>
+                <td >
+                    <div class="row w3-container w3-padding-70 display:Grid"></div>
+                        <label><b> Last Name </b></label>
+                        <input type="text" placeholder="Enter your Last Name" required="" name="Name" >  
+                    </div> 
+                </td>
+            </div>
+            </tr>
+            <tr>
+                <td>
+                    <div class="w3-container w3-padding-55 display:Grid" >
+                        <label> <b>Address</b></label>
+                        <input class="w3-row" type="text" placeholder="Enter your street Address" required="" name="Address">
+                    </div>
+                </td>
+                <td >
+                    <div class="w3-container w3-padding-55 display:Grid" >
+                            <label> <b>City </b></label>
+                            <input class="w3-row" type="text" placeholder="Enter your City" required="" name="City">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="w3-container w3-padding-55 display:Grid">
+                        <label> <b>State </b></label>
+                        <input class="w3-row" type="text" placeholder="Enter your State" required="" name="State">
+                    </div>
+                </td>
+                <td>
+                    <div class="w3-container w3-padding-55 display:Grid">
+                        <label> <b>Zipcode </b></label>
+                        <input class="w3-row" type="text" placeholder="Enter your Zipcode" required="" name="Zipcode">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="w3-container w3-padding-55 display:Grid">    
+                        <label> <b>Telephone No </b></label>
+                        <input class="w3-row" type="text" placeholder="Enter you telephone no" required="" name="Contact">
+                    </div>
+                </td>
+                <td>
+                    <div class="w3-container w3-padding-55 display:Grid">  
+                        <label> <b>Email Address </b></label>
+                        <input class="w3-row" type="email" placeholder="Enter your email" required="" name="Email">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="w3-container w3-padding-55 display:Grid">
+                        <label> <b>Date Of Survey </b></label>
+                        <input class="w3-row" type="text" placeholder="Date Of Survey" required="" name="Date">
+                    </div>
+                </td>
+            </tr>
+        </table>
+            <p class="w3-container w3-padding-55"><b>Things you liked most about the campus: </b></p>
+        
+            <div class="w3-container w3-padding-55">
+                <input type="checkbox" name="student" >
+                    <label for="vehicle1"> Students </label><br>
+                <input type="checkbox" name="Location" >
+                    <label for="vehicle2"> Location </label><br>
+                <input type="checkbox" name="Campus" >
+                    <label for="vehicle3"> Campus</label><br>
+                <input type="checkbox" name="Atmosphere" >
+                    <label for="vehicle3"> Atmosphere</label><br>
+                <input type="checkbox" name="Dorm" >
+                    <label for="vehicle3"> Dorm Rooms</label><br>
+                <input type="checkbox" name="Sports" >
+                    <label for="vehicle3"> Sports</label>
+            </div>
+            <p class="w3-container w3-padding-55"><b>What got you interested in the university: </b></p>
+            <div class="w3-container w3-padding-50">
+                <input type="radio" name="" value="Friends">
+                    <label for="html">Friends</label><br>
+                <input type="radio" name="fav_language" value="Television">
+                   <label for="css">Television</label><br>
+                <input type="radio" name="fav_language" value="Internet">
+                   <label for="javascript">Internet</label><br>
+                <input type="radio" name="fav_language" value="Other">
+                   <label for="javascript">Other</label>
+            </div>
+
+            <div class="w3-container w3-padding-55">
+                <label ><b>How likely are you to recommend this school to other prospective students</b></label>
+                <select name="Likelihood">
+                  <option value="volvo">Very Likely</option>
+                  <option value="saab">Likely</option>
+                  <option value="opel">Unlikely</option>
+                </select><br>
+            <label><b>Raffle </b></label>
+            <input type="text" name="Raffle" placeholder="Enter 10 numbers "/>
+            <br><p style="font-size: small; color: brown;"><b>Note:</b>Enter at least ten comma separated
+                numbers ranging from 1 through 100 in the Raffle field. This information will be used to announce
+                whether the you win a free movie ticket.</p>
+
+            </div>
+            <div class="row w3-container w3-padding-50">
+                <div >
+                  <label ><b>Additional Comments: </b></label>
+                </div>
+                <div >
+                  <textarea name="comments" placeholder="Write your comments.." style="height:200px" style="width:1000px"></textarea>
+                </div>
+                <div class="w3-container">
+                <button class="button button1"><b>Submit</b>
+                </button> 
+                <button class="button button2"><b>Cancel</b>
+                </button> 
+            </div>
+            </div><br>
+            
+            
+        </div>
+            
+      </form>
+</html>
